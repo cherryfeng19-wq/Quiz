@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Strawberry Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="quiz-container">
+    <header class="quiz-header">
+      <h1>Strawberry Multiple-Choice Quiz</h1>
+      <p>Choose one answer for each strawberry question, then submit your quiz.</p>
+    </header>
+
+    <form id="quiz-form">
+      <section class="question-card">
+        <h2>1. What color are ripe strawberries most often?</h2>
+        <label><input type="radio" name="q1" value="Red"> Red</label>
+        <label><input type="radio" name="q1" value="Blue"> Blue</label>
+        <label><input type="radio" name="q1" value="Purple"> Purple</label>
+        <label><input type="radio" name="q1" value="Black"> Black</label>
+      </section>
+
+      <section class="question-card">
+        <h2>2. Where do strawberry seeds appear?</h2>
+        <label><input type="radio" name="q2" value="On the outside"> On the outside</label>
+        <label><input type="radio" name="q2" value="In the center"> In the center</label>
+        <label><input type="radio" name="q2" value="Inside the leaves"> Inside the leaves</label>
+        <label><input type="radio" name="q2" value="On the stem only"> On the stem only</label>
+      </section>
+
+      <section class="question-card">
+        <h2>3. Which season is commonly associated with fresh strawberries?</h2>
+        <label><input type="radio" name="q3" value="Summer"> Summer</label>
+        <label><input type="radio" name="q3" value="Winter"> Winter</label>
+        <label><input type="radio" name="q3" value="Late fall"> Late fall</label>
+        <label><input type="radio" name="q3" value="Early spring snow"> Early spring snow</label>
+      </section>
+
+      <section class="question-card">
+        <h2>4. Which part usually sits on top of a strawberry?</h2>
+        <label><input type="radio" name="q4" value="Green leaves"> Green leaves</label>
+        <label><input type="radio" name="q4" value="A hard shell"> A hard shell</label>
+        <label><input type="radio" name="q4" value="A peel"> A peel</label>
+        <label><input type="radio" name="q4" value="A pit"> A pit</label>
+      </section>
+
+      <section class="question-card">
+        <h2>5. Which dessert often includes strawberries?</h2>
+        <label><input type="radio" name="q5" value="Strawberry shortcake"> Strawberry shortcake</label>
+        <label><input type="radio" name="q5" value="Plain toast only"> Plain toast only</label>
+        <label><input type="radio" name="q5" value="Boiled rice"> Boiled rice</label>
+        <label><input type="radio" name="q5" value="Pickle soup"> Pickle soup</label>
+      </section>
+
+      <div class="button-row">
+        <button type="submit" id="submit-button">Submit Quiz</button>
+        <button type="button" id="try-again-button" class="secondary-button">Try Again</button>
+      </div>
+    </form>
+
+    <section id="results" class="results" aria-live="polite"></section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
