@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="172" height="172" viewBox="0 0 172 172">
+  <rect width="172" height="172" fill="#fff5f7"/>
+  <defs>
+    <linearGradient id="softGlow" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffe3e8"/>
+      <stop offset="1" stop-color="#fff9ec"/>
+    </linearGradient>
+    <g id="strawberry">
+      <path d="M43 30 C30 30 22 40 24 53 C27 72 43 86 43 86 C43 86 59 72 62 53 C64 40 56 30 43 30 Z" fill="#e63946"/>
+      <path d="M43 29 L38 20 L43 24 L48 20 Z" fill="#2f9e44"/>
+      <path d="M37 31 L29 24 L39 26 Z" fill="#2f9e44"/>
+      <path d="M49 31 L57 24 L47 26 Z" fill="#2f9e44"/>
+      <circle cx="36" cy="45" r="1.8" fill="#ffd166"/>
+      <circle cx="47" cy="45" r="1.8" fill="#ffd166"/>
+      <circle cx="41" cy="56" r="1.8" fill="#ffd166"/>
+      <circle cx="51" cy="61" r="1.8" fill="#ffd166"/>
+      <circle cx="34" cy="66" r="1.8" fill="#ffd166"/>
+    </g>
+  </defs>
+  <rect width="172" height="172" fill="url(#softGlow)" opacity="0.78"/>
+  <use href="#strawberry" x="0" y="0"/>
+  <use href="#strawberry" x="86" y="86"/>
+  <use href="#strawberry" x="92" y="-18" transform="rotate(18 135 43)" opacity="0.82"/>
+  <use href="#strawberry" x="-16" y="92" transform="rotate(-16 27 135)" opacity="0.82"/>
+</svg>
