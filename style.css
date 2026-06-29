@@ -7,7 +7,15 @@ body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   color: #1f2937;
-  background: #eef4f8;
+  background-color: #fff5f7;
+  background-image:
+    radial-gradient(circle at 18px 18px, #e63946 0 9px, transparent 10px),
+    radial-gradient(circle at 24px 10px, #2f9e44 0 3px, transparent 4px),
+    radial-gradient(circle at 12px 10px, #2f9e44 0 3px, transparent 4px),
+    radial-gradient(circle at 15px 20px, #ffd166 0 1px, transparent 2px),
+    radial-gradient(circle at 21px 18px, #ffd166 0 1px, transparent 2px),
+    linear-gradient(135deg, #ffe3e8 0%, #fff9ec 100%);
+  background-size: 86px 86px, 86px 86px, 86px 86px, 86px 86px, 86px 86px, 100% 100%;
   line-height: 1.5;
 }
 
@@ -15,8 +23,8 @@ body {
   width: min(92%, 760px);
   margin: 32px auto;
   padding: 24px;
-  background: #ffffff;
-  border: 1px solid #d7e0e7;
+  background: rgba(255, 255, 255, 0.96);
+  border: 1px solid #f3b4bd;
   border-radius: 8px;
   box-shadow: 0 10px 24px rgba(31, 41, 55, 0.08);
 }
@@ -39,8 +47,8 @@ body {
 .question-card {
   margin-bottom: 18px;
   padding: 18px;
-  background: #f8fbfd;
-  border: 1px solid #dce6ee;
+  background: #fffafb;
+  border: 1px solid #f5c2cb;
   border-radius: 8px;
 }
 
@@ -79,23 +87,23 @@ button {
   font-size: 1rem;
   font-weight: 700;
   color: #ffffff;
-  background: #256f9c;
+  background: #c92a3e;
   border: none;
   border-radius: 6px;
   cursor: pointer;
 }
 
 button:hover {
-  background: #1d5d84;
+  background: #a61e32;
 }
 
 .secondary-button {
-  color: #256f9c;
-  background: #e7f1f8;
+  color: #a61e32;
+  background: #ffe3e8;
 }
 
 .secondary-button:hover {
-  background: #d6e8f3;
+  background: #ffd1d9;
 }
 
 .results {
